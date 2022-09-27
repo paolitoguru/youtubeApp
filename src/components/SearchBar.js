@@ -16,7 +16,6 @@ const SearchBar = () =>{
     marginTop: 75,
     width: '100%',
     [theme.breakpoints.up('sm')]: {
-      marginLeft: theme.spacing(1),
       width:'50%',
     },
   }));
@@ -47,7 +46,7 @@ const SearchBar = () =>{
       },
     },
   }));
-  
+ 
   return (
     <div className='searchbar'>
          <Search>
