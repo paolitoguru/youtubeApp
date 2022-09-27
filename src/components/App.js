@@ -1,13 +1,23 @@
-import React from "react";
-import SearchBar from "./SearchBar";
 
-import axios from "axios";
-import VideoList from "./VideoList";
-import VideoDetail from "./VideoDetail";
-import Header from "./Header";
+import React from 'react';
+import FirstVideo from './FirstVideo';
+import Menubar from './Menunbar';
+import SearchBar from './SearchBar';
+import VideoList from './VideoList';
 
+const App = () => {
+    return (
+        <div className='Home'>
+            <Menubar />
+            <SearchBar />
+            <FirstVideo />
+            <VideoList/>
+        </div>
+    );
+};
 
-const KEY = "AIzaSyBSrl7wVUAD1jzAeUioGUVlZ921YkYxzaA";
+export default App;
+/* 
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
@@ -60,6 +70,7 @@ class App extends React.Component {
       </div>
     );
   }
-}
-
+} 
 export default App;
+*/
+
