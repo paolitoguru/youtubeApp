@@ -51,7 +51,7 @@ const SearchBar = () =>{
     <div className='searchbar'>
          <Search>
             <SearchIconWrapper>
-                <SearchIcon />
+                <SearchIcon color='' />
             </SearchIconWrapper>
             <StyledInputBase placeholder="Search…" inputProps={{ 'aria-label': 'search' }}/>
         </Search>
